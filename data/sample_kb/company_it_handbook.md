@@ -1,6 +1,6 @@
 ---
 doc_id: KB-IT-001
-title: Lotus Retail IT Support Handbook (Employee Guide)
+title: Roscaelifer Retail IT Support Handbook (Employee Guide)
 owner: IT Service Desk
 audience: All employees and contractors with a company account
 classification: Internal
@@ -10,15 +10,15 @@ review_cycle: every 6 months
 related: KB-IT-002 (IT Service Desk Runbook, IT staff only)
 ---
 
-# Lotus Retail IT Support Handbook (Employee Guide)
+# Roscaelifer Retail IT Support Handbook (Employee Guide)
 
-This handbook explains how employees use company IT systems securely and how to get help when something goes wrong. It applies to every employee and contractor who has a Lotus Retail account or company device. Step-by-step procedures for IT staff are in the IT Service Desk Runbook (KB-IT-002), not here.
+This handbook explains how employees use company IT systems securely and how to get help when something goes wrong. It applies to every employee and contractor who has a Roscaelifer Retail account or company device. Step-by-step procedures for IT staff are in the IT Service Desk Runbook (KB-IT-002), not here.
 
 ## 1. Getting IT Support
 
 ### How to contact the IT Service Desk
-- Self-service portal (preferred, creates a tracked ticket): https://helpdesk.lotusretail.example
-- Email: servicedesk@lotusretail.example
+- Self-service portal (preferred, creates a tracked ticket): https://helpdesk.roscaeliferretail.rsc
+- Email: servicedesk@roscaeliferretail.rsc
 - Phone for urgent issues: ext. 4000
 - Hours: Monday to Friday, 08:00 to 18:00 local time.
 - Security incidents (lost device, suspected account compromise) can be reported 24/7 on the Security hotline, ext. 4999.
@@ -105,7 +105,7 @@ Do not try to recover the device yourself or confront anyone who may have taken 
 ## 7. Phishing and Suspicious Emails
 
 ### How to report a suspicious email
-Do not click links, open attachments or reply. Use the Report Phishing button in your email client, or forward the message as an attachment to security@lotusretail.example, then delete it.
+Do not click links, open attachments or reply. Use the Report Phishing button in your email client, or forward the message as an attachment to security@roscaeliferretail.rsc, then delete it.
 
 ### If you already clicked or entered your password
 Call the Security hotline (ext. 4999) immediately and change your password from a trusted device. Acting quickly limits the damage. You will not be blamed for reporting honestly and promptly.
