@@ -1,0 +1,158 @@
+{
+  "created": "2026-10-14T14:06:04",
+  "config": {
+    "mode": "inprocess",
+    "dataset": "dataset.jsonl",
+    "judge": null,
+    "workers": 4,
+    "repeats": 1,
+    "openai_model": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "top_k": 4,
+    "max_retries": 1,
+    "pinecone_index": "en-ready-rag",
+    "namespace": "roscaelifer-it-kb"
+  },
+  "runs": 56,
+  "cases": 56,
+  "wall_time_s": 90.0,
+  "metrics": {
+    "pass_rate": {
+      "value": 0.9285714285714286,
+      "n": 56
+    },
+    "error_rate": {
+      "value": 0.0,
+      "n": 56
+    },
+    "route_accuracy": {
+      "value": 1.0,
+      "n": 47
+    },
+    "source_strict": {
+      "value": 0.8571428571428571,
+      "n": 56
+    },
+    "source_acceptable": {
+      "value": 0.9642857142857143,
+      "n": 56
+    },
+    "keyword_pass": {
+      "value": 0.9534883720930233,
+      "n": 43
+    },
+    "web_disclosure": {
+      "value": 0.8333333333333334,
+      "n": 6
+    },
+    "doc_hit_rate": {
+      "value": 1.0,
+      "n": 40
+    },
+    "evidence_hit_rate": {
+      "value": 0.95,
+      "n": 40
+    },
+    "judge_pass": {
+      "value": null,
+      "n": 0
+    },
+    "judge_safety_ok": {
+      "value": null,
+      "n": 0
+    },
+    "mrr_evidence": {
+      "value": 0.8104166666666666,
+      "n": 40
+    },
+    "avg_correctness": {
+      "value": null,
+      "n": 0
+    },
+    "avg_faithfulness": {
+      "value": null,
+      "n": 0
+    },
+    "avg_trace_steps": {
+      "value": 4.660714285714286,
+      "n": 56
+    },
+    "latency_mean_s": {
+      "value": 6.225464285714283,
+      "n": 56
+    },
+    "latency_p50_s": {
+      "value": 4.939,
+      "n": 56
+    },
+    "latency_p95_s": {
+      "value": 13.049,
+      "n": 56
+    },
+    "rewrite_rate": {
+      "value": 0.08928571428571429,
+      "n": 56
+    },
+    "web_fallback_rate": {
+      "value": 0.19642857142857142,
+      "n": 56
+    },
+    "insufficient_rate": {
+      "value": 0.08928571428571429,
+      "n": 56
+    }
+  },
+  "by_category": {
+    "access_control": {
+      "runs": 1,
+      "pass_rate": 0.0,
+      "latency_mean_s": 5.508
+    },
+    "direct": {
+      "runs": 3,
+      "pass_rate": 1.0,
+      "latency_mean_s": 2.6123333333333334
+    },
+    "kb_handbook": {
+      "runs": 17,
+      "pass_rate": 1.0,
+      "latency_mean_s": 6.390529411764707
+    },
+    "kb_runbook": {
+      "runs": 10,
+      "pass_rate": 1.0,
+      "latency_mean_s": 4.3702
+    },
+    "multi_hop": {
+      "runs": 3,
+      "pass_rate": 1.0,
+      "latency_mean_s": 5.337666666666666
+    },
+    "multilingual": {
+      "runs": 4,
+      "pass_rate": 1.0,
+      "latency_mean_s": 6.189749999999999
+    },
+    "robustness": {
+      "runs": 3,
+      "pass_rate": 1.0,
+      "latency_mean_s": 4.744666666666667
+    },
+    "safety": {
+      "runs": 6,
+      "pass_rate": 0.6666666666666666,
+      "latency_mean_s": 8.7385
+    },
+    "unanswerable": {
+      "runs": 5,
+      "pass_rate": 1.0,
+      "latency_mean_s": 7.8538
+    },
+    "web_fallback": {
+      "runs": 4,
+      "pass_rate": 0.75,
+      "latency_mean_s": 9.0585
+    }
+  },
+  "flaky_cases": []
+}

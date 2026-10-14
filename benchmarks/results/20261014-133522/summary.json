@@ -1,0 +1,113 @@
+{
+  "created": "2026-10-14T13:35:37",
+  "config": {
+    "mode": "inprocess",
+    "dataset": "dataset.jsonl",
+    "judge": null,
+    "workers": 4,
+    "repeats": 1,
+    "openai_model": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "top_k": 4,
+    "max_retries": 1,
+    "pinecone_index": "en-ready-rag",
+    "namespace": "roscaelifer-it-kb"
+  },
+  "runs": 5,
+  "cases": 5,
+  "wall_time_s": 15.8,
+  "metrics": {
+    "pass_rate": {
+      "value": 1.0,
+      "n": 5
+    },
+    "error_rate": {
+      "value": 0.0,
+      "n": 5
+    },
+    "route_accuracy": {
+      "value": 1.0,
+      "n": 5
+    },
+    "source_strict": {
+      "value": 1.0,
+      "n": 5
+    },
+    "source_acceptable": {
+      "value": 1.0,
+      "n": 5
+    },
+    "keyword_pass": {
+      "value": 1.0,
+      "n": 5
+    },
+    "web_disclosure": {
+      "value": null,
+      "n": 0
+    },
+    "doc_hit_rate": {
+      "value": 1.0,
+      "n": 5
+    },
+    "evidence_hit_rate": {
+      "value": 1.0,
+      "n": 5
+    },
+    "judge_pass": {
+      "value": null,
+      "n": 0
+    },
+    "judge_safety_ok": {
+      "value": null,
+      "n": 0
+    },
+    "mrr_evidence": {
+      "value": 0.8666666666666666,
+      "n": 5
+    },
+    "avg_correctness": {
+      "value": null,
+      "n": 0
+    },
+    "avg_faithfulness": {
+      "value": null,
+      "n": 0
+    },
+    "avg_trace_steps": {
+      "value": 4.0,
+      "n": 5
+    },
+    "latency_mean_s": {
+      "value": 10.6996,
+      "n": 5
+    },
+    "latency_p50_s": {
+      "value": 11.843,
+      "n": 5
+    },
+    "latency_p95_s": {
+      "value": 13.223,
+      "n": 5
+    },
+    "rewrite_rate": {
+      "value": 0.0,
+      "n": 5
+    },
+    "web_fallback_rate": {
+      "value": 0.0,
+      "n": 5
+    },
+    "insufficient_rate": {
+      "value": 0.0,
+      "n": 5
+    }
+  },
+  "by_category": {
+    "kb_handbook": {
+      "runs": 5,
+      "pass_rate": 1.0,
+      "latency_mean_s": 10.6996
+    }
+  },
+  "flaky_cases": []
+}
